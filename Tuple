@@ -1,0 +1,101 @@
+A:
+Code:
+'''
+ID-20CS037
+NAME-SHREYAN MITTAL
+AIM-
+a.Write a Python program to create a tuple with different data types.
+'''
+
+t1 = ("apple",False,3.2, 1)
+print(t1)
+
+Output:
+/usr/local/bin/python3.7 "/Users/shreyanmittal/PycharmProjects/ firstProg/jan_15.py"
+('apple', False, 3.2, 1)
+
+Process finished with exit code 0
+
+B:
+Code:
+'''
+ID-20CS037
+NAME-SHREYAN MITTAL
+AIM-
+b.Write a Python program to create a tuple with numbers and print one item.
+'''
+
+
+t1 = (5, 10, 15, 20, 25)
+print(t1)   #printing a tupple
+t1 = (5,)  #printing a single tuple element
+print(t1)  
+
+Output:
+/usr/local/bin/python3.7 "/Users/shreyanmittal/PycharmProjects/ firstProg/jan_15.py"
+(5, 10, 15, 20, 25)
+(5,)
+
+Process finished with exit code 0
+
+C:
+Code:
+'''
+ID-20CS037
+NAME-SHREYAN MITTAL
+AIM-
+c.Write a Python program to add an item in a tuple.
+'''
+
+
+t1=(1,2,3,4)
+print(t1)
+
+t1=t1+(5,)   #adding of elements using + operator
+
+print(t1)
+Output:
+/usr/local/bin/python3.7 "/Users/shreyanmittal/PycharmProjects/ firstProg/jan_15.py"
+(1, 2, 3, 4)
+(1, 2, 3, 4, 5)
+
+Process finished with exit code 0
+
+D:
+Code:
+'''
+ID-20CS037
+NAME-SHREYAN MITTAL
+AIM-
+d.Write a Python program to convert a tuple to a string.
+'''
+
+
+t1 = ('s','h','r','e','y','a','n')
+str =  ''.join(t1)
+print(str)
+
+Output:
+/usr/local/bin/python3.7 "/Users/shreyanmittal/PycharmProjects/ firstProg/jan_15.py"
+shreyan
+
+Process finished with exit code 0
+
+E:
+'''
+ID-20CS037
+NAME-SHREYAN MITTAL
+AIM-
+e.Write a Python program to find the length of a tuple.
+'''
+
+
+t1=('shreyan')
+print(t1)
+print("Length=",len(t1))
+Output:
+/usr/local/bin/python3.7 "/Users/shreyanmittal/PycharmProjects/ firstProg/jan_15.py"
+shreyan
+Length= 7
+
+Process finished with exit code 0
